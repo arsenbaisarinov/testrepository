@@ -1,0 +1,32 @@
+.forBlock {
+    border-radius: 0 10px 10px 0;
+    width: 300px;
+    background: #333;
+    color: white;
+    position: fixed;
+    min-height: 110px; 
+    top: 100px; 
+    left: -320px;
+    border-right: 20px solid #fc0;
+    padding: 10px;
+    transition: left 3s;
+}
+
+.forBlock img {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.forBlock::after {
+    content: 'Обратная связь'; 
+    color: black;
+    position: absolute;
+    right: -70px;
+    bottom: 50px;
+    padding-top: -50px;
+    transform: rotate(-90deg);
+}
+
+.forBlock:hover {
+    left: 0px;
+}

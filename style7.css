@@ -1,0 +1,125 @@
+img{
+	height: 450px;
+	width: 450px;
+}
+
+.forDiv{
+	display: flex;
+	border: 1px solid grey;
+	width: 900px;
+	height: 450px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.forHealth{
+	margin-left: 15px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.forText{
+	margin-left: -59px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.forText2{
+	font-size: 18px;
+	color: #666;
+	margin-left: -340px;
+	margin-top: 140px;
+}
+
+.forDiv2{
+	display: flex;
+}
+
+.forDiv2 img{
+	margin-top: 280px;
+	margin-left: -345px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+}
+
+.forText3{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 300px;
+}
+
+.forText4{
+	font-size: 15px;
+	margin-top: 305px;
+	margin-left: -115px;
+
+}
+.forDiv4{
+	background-color: blue;
+	width: 450px;
+	height: 50px;
+	margin-top: 400px;
+	margin-left: -365px;
+	display: flex;
+}
+
+.forDiv5{
+	width: 150px;
+	height: 50px;
+	border: 0px;
+	border-right: 1px solid white;
+	background-color: #edf3f3;
+	display: flex;
+}
+
+.forDiv5 i{
+	color: #444;
+	margin-left: 55px;
+	margin-top: 17px;
+}
+.forDiv6{
+	width: 150px;
+	height: 50px;
+	border: 0px;
+	border-right: 1px solid white;
+	background-color: #edf3f3;
+	display: flex;
+}
+.forDiv6 i{
+	color: #444;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+.forDiv7{
+	width: 150px;
+	height: 50px;
+	border: 0px;
+	background-color: #edf3f3;
+	display: flex;
+}
+.forDiv7 i{
+	color: #444;
+	margin-left: 50px;
+	margin-top: 17px;
+}
+
+.forText5{
+	color: #444;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.forText6{
+	color: #444;
+	font-size: 20px;
+	margin-top: 14px;margin-left: 5px;
+}
+.forText7{
+	color: #444;
+	font-size: 20px;
+	margin-top: 15px; 
+	margin-left: 5px;
+}

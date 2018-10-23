@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Traffic</title>
+	
+</head>
+<body><style>
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+
+#controlPanel {
+  float: left;
+  padding-top: 30px;
+  
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 20px;
+  text-align: center;
+  margin: 90px 40px;
+  cursor: pointer;
+}
+
+#traffic-light {
+  height: 150px;
+  width: 70px;
+  float: left;
+  background-color: #333;
+  border-radius: 40px;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.bulb {
+  height: 65px;
+  width: 65px;
+  background-color: #111;
+  border-radius: 50%;
+  margin: 5px;
+  transition: background 500ms;
+}
+		#wrap{
+    width: 240px;
+    height: 800px;
+    margin: 0 auto;
+    background: url(https://sergey-oganesyan.ru/wp-content/uploads/2017/04/road.jpg);
+}
+#car{
+    width: 80px;
+    height: 142px;
+    background: url(https://sergey-oganesyan.ru/wp-content/uploads/2017/04/car.png);
+    margin: 650px 0 0 134px;
+    position: absolute;
+}
+	</style>
+	<div id="wrap">
+    	<div id="car">
+		</div>
+	</div>
+	<div id="controlPanel">
+  <h1 id="stopButton" class="button">Stop</h1>
+ 
+  <h1 id="goButton" class="button">Go</h1>
+  </div>
+<div id="traffic-light">
+  <div id="stopLight" class="bulb"></div>
+  <div id="goLight" class="bulb"></div>
+  
+</div>
+	
+	
+	<script type="text/javascript">
+		var curPosY = 0;
+		var a = document.getElementById('car');
+		var n;
+		var interval;	
+		var imgHeight = 100;	
+		var stop = document.getElementById('stopButton');
+		var go = document.getElementById('goButton');
+		var height = document.documentElement.clientHeight;	
+		var gr = document.getElementById('goLight');
+		var rd = document.getElementById('stopLight');
+		stop.onclick = illuminateRed;
+    	go.onclick = illuminateGreen;
+    	var svet = false;
+    	
+    	    interval = setInterval(drive, 100);
+    
+    	
+    	
+
+    	function illuminateRed() {
+    	  clearLights();
+    	  rd.style.backgroundColor = "red";
+    	  svet = false;
+    	}
+
+    	function illuminateGreen() {
+    	  clearLights();
+    	  gr.style.backgroundColor = "green";
+    	  svet = true;
+    	}
+
+    	function clearLights() {
+    	  document.getElementById('stopLight').style.backgroundColor = "black";
+    	  document.getElementById('goLight').style.backgroundColor = "black";
+    	}
+    	function drive(){
+    		if(svet){
+    			n=5;
+	    		a.style.top = (curPosY -= n) + "px";
+	    		if (curPosY == (height - imgHeight))
+	    				clearInterval(interval);
+				
+			}
+			else if(rd.style.backgroundColor == 'red'){
+				n=0;
+				a.style.top = curPosY + "px";	
+			}
+  		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz2</title>
+</head>
+
+<body onload="createT()">
+	<table id="tbl" border="2px"></table>	
+	<div style="width: 200px; height: 200px;display: none;" id="foo">
+		<p>HELLO</p>
+	</div>
+	<button style="width: 100px; height: 20px;" onclick="myFunction()"></button>
+	<script>
+	var id = 0;
+
+	function createT(){
+		var tbl = document.getElementById("tbl");
+
+		for(var r=0;r<8;r++){
+			var row = document.createElement("tr");
+			for(var c = 0;c<8;c++){
+				var cell = document.createElement("td");
+				cell.width = "20px";
+				cell.height = "20px";
+				cell.id = id++;
+
+				if((r+c) % 2 == 0){
+					cell.style.backgroundColor = '#'+Math.round((Math.random()*(999999-100000)+100000));
+					cell.style.color = "white";
+				}
+
+				row.appendChild(cell);
+				cell.innerHTML = id;
+			}
+			tbl.appendChild(row);
+		}
+	}
+
+	function myFunction() {
+		var random_color = '#' + Math.round((Math.random() * (999999 - 100000) + 100000));
+		document.getElementById('foo').style.backgroundColor = random_color;
+		document.getElementById('foo').style.display = 'block';
+	}
+</script>
+</body>
+</html>

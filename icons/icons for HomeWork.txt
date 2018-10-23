@@ -1,0 +1,42 @@
+Adding:
+
+--Awesome--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+--Bootstrap--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+--Google--
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+------------------------------------------------------------------------------------
+
+<i class="glyphicon glyphicon-envelope">SMS</i>
+<i class="glyphicon glyphicon-remove">Exit</i>
+<i class="material-icons">Computer</i>
+<i class="fa fa-gamepad" style="font-size:24px">GamePad</i>
+<i style="font-size: 24px;" class="fa fa-desktop">Laptop</i>
+<i style="font-size: 24px;" class="fa fa-mobile-phone">Phone</i>
+<i style="font-size: 24px;" class="fa fa-phone">Phone2</i>
+<i style="font-size: 24px;" class="fa fa-search">Search</i>
+<i style="font-size: 24px;" class="fa fa-television">Laptop2</i>
+<i style="font-size: 24px;" class="fa fa-trophy">Kubok</i>
+<i style="font-size: 24px;" class="fa fa-camera-retro">Camera</i>
+<i style="font-size: 24px;" class="fa fa-cloud-download">Cloud</i>
+<i style="font-size: 24px;" class="fa fa-object-group">Fotos</i>
+<i style="font-size: 24px;" class="fa fa-dribbble">Internet</i>
+<i style="font-size: 24px;" class="fa fa-facebook">Facebook</i>
+<i style="font-size: 24px;" class="fa fa-film">Camera Albums</i>
+<i style="font-size: 24px;" class="fa fa-map-marker">Map</i>
+<i style="font-size: 24px;" class="fa fa-twitter">Twitter</i>
+<i style="font-size: 24px;" class="glyphicon glyphicon-camera">Camera</i>
+<i style="font-size: 24px;" class="material_icons">linked_camera</i>
+<i style="font-size: 24px;" class="material_icons">phone_in_talk</i>
+<i style="font-size: 24px;" class="fa fa-lightbulb-o">Light</i>
+<i class="material-icons">pin_drop</i>
+<i class="fa fa-pinterest">Нижняя иконка</i> 
+fa fa-heart-o - Сердце
+	
+
+	
+
+

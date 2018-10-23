@@ -1,0 +1,16 @@
+button{
+	background-color: green;
+	color: black;
+}
+.forSection1{
+	display: flex;
+}
+.forSection2{
+	width: 500px;
+	height: 40px;
+}
+.forDiv1{
+	width: 40px;
+	height: 300px;
+	color: black;
+}

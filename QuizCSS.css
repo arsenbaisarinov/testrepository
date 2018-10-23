@@ -1,0 +1,97 @@
+.forDiv1{
+	width: 500px;
+	height: 500px;
+}
+
+.forImg{
+	border-radius: 10px;
+	height: 400px;
+	width: 700px;
+}
+.forDiv2{
+	background-color: #999;
+	width: 280px;
+	text-align: center;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
+
+.forDiv{
+	display: flex;
+}
+
+.forImg2{
+	margin-left: 90px;
+	margin-top: 20px;
+	width: 180px;
+	height: 180px;
+	border-radius: 1000px;
+}
+
+.forText1{
+	font-size: 20px;
+	margin-left: 110px;
+}
+
+.forText2{
+	font-size: 15px;
+	margin-left: 70px;
+}
+
+.forText3{
+	font-size: 15px;
+	margin-left: 85px;
+	margin-top: -15px;
+}
+.forText4{
+	font-size: 15px;
+	margin-left: 140px;
+	margin-top: -15px;
+	width: 100%;
+}
+
+.forDiv3{
+	background-color: #999;
+	width: 280px;
+	border-radius: 2px;
+	text-align: center;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.forText5{
+	padding-top: 7px;
+}
+
+.forText6{
+	font-size: 10px;
+	color: #888;
+}
+
+.forDiv4{
+	display: flex;
+}
+
+.forI{
+	font-size: 5px;
+	margin-left: 300px;
+	color: #999;
+
+}
+.forText7{
+	margin-top: -0px;
+	color: #999;
+}
+
+.forText8{
+	margin-top: 0;
+	color: #999;
+}
+
+.forI2{
+	margin-left: 10px;
+	color: #999;
+	font-size: 5px;
+}
